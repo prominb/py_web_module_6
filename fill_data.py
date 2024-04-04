@@ -8,7 +8,7 @@ NUMBER_EMPLOYESS = 30
 NUMBER_POST = 5
 
 
-def generate_fake_data(number_companies, number_employees, number_post) -> tuple():
+def generate_fake_data(number_companies, number_employees, number_post) -> tuple:
     fake_companies = []  # тут зберігатимемо компанії
     fake_employees = []  # тут зберігатимемо співробітників
     fake_posts = []  # тут зберігатимемо посади
@@ -30,7 +30,7 @@ def generate_fake_data(number_companies, number_employees, number_post) -> tuple
     return fake_companies, fake_employees, fake_posts
 
 
-def prepare_data(companies, employees, posts) -> tuple():
+def prepare_data(companies, employees, posts) -> tuple:
     for_companies = []
     # готуємо список кортежів назв компаній
     for company in companies:
